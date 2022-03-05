@@ -8,7 +8,13 @@ Amazon Baby Product Reviews Dataset from Kaggle Competition (https://www.kaggle.
 ## Steps
 1. Import key packages such as NLTK and sklearn's Count and TfIdf Vectorizers
 2. Load and preprocess the Baby Product Review dataset 
-    * Make sure to bin sentiment values from [0,5] -> [0,1]
+    * Make sure to scale sentiment values
+3. Prepare Count Vectorizer
+    * Fit Count Vectorizer
+    * Train Logistic Regression, SVM, and K-Nearest Neighbors models
+4. Prepare TfIdf Vectorizer
+    * Fit TfIdf Vectorizer
+    * Train Logistic Regression, SVM, and K-Nearest Neighbors models
 ## Results
 
 ## References
